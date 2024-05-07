@@ -1,4 +1,4 @@
-const backendDomin = "http://localhost:8080"
+const backendDomin = "https://fashion-store-backend-kixn.onrender.com"
 
 const SummaryApi = {
     signUP : {
