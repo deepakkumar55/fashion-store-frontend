@@ -135,7 +135,7 @@ const [username, setUsername] = useState('');
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          // Assuming you're sending credentials in the request body
+          
         },
         body: JSON.stringify({ username, password }),
         credentials: 'include', // Include cookies in the request
@@ -145,7 +145,7 @@ const [username, setUsername] = useState('');
         throw new Error('Failed to sign in');
       }
 
-      // Handle successful login
+      
     } catch (error) {
       console.error('Login error:', error.message);
     }
